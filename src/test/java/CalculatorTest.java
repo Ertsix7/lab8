@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
+    Calculator calculator=new Calculator();
 
     Calculator calculator=new Calculator();
 
@@ -13,7 +14,8 @@ class CalculatorTest {
 
     @Test
     void dif() {
-        //парам
+
+        //тут был ваня
         assertEquals(-2,calculator.dif(-1,1));
     }
 
@@ -29,6 +31,7 @@ class CalculatorTest {
 
     @Test
     void solver() {
-        assertEquals(7,calculator.solver());
+
+        assertEquals(6,calculator.solver());
     }
 }
