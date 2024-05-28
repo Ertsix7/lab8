@@ -14,6 +14,8 @@ public class Calculator {
     public int solver(){
         int a=7;
         int b=1;
+
         return dif(a,b);
+
     }
 }
